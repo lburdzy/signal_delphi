@@ -16,26 +16,26 @@ object Form1: TForm1
     Shape = stRoundRect
   end
   object Button1: TButton
-    Left = 88
+    Left = 48
     Height = 25
-    Top = 288
+    Top = 144
     Width = 75
     Caption = 'Button1'
     OnClick = Button1Click
     TabOrder = 0
   end
   object Edit1: TEdit
-    Left = 144
+    Left = 96
     Height = 23
-    Top = 152
+    Top = 104
     Width = 80
     TabOrder = 1
     Text = 'Edit1'
   end
   object Label1: TLabel
-    Left = 56
+    Left = 48
     Height = 16
-    Top = 151
+    Top = 104
     Width = 23
     Caption = 'qwe'
     ParentColor = False
@@ -63,5 +63,18 @@ object Form1: TForm1
     Width = 113
     Brush.Color = 3355443
     Shape = stCircle
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 104
+    top = 248
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 3000
+    OnTimer = Timer2Timer
+    left = 160
+    top = 256
   end
 end

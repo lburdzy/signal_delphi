@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 320
+  Height = 545
+  Top = 145
+  Width = 788
+  Caption = 'Form1'
+  ClientHeight = 545
+  ClientWidth = 788
+  LCLVersion = '1.0.12.0'
+  object Shape4: TShape
+    Left = 280
+    Height = 409
+    Top = 23
+    Width = 176
+    Brush.Color = clBackground
+    Shape = stRoundRect
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 96
+    Height = 23
+    Top = 104
+    Width = 80
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 16
+    Top = 104
+    Width = 23
+    Caption = 'qwe'
+    ParentColor = False
+  end
+  object Shape1: TShape
+    Left = 312
+    Height = 113
+    Top = 40
+    Width = 113
+    Brush.Color = 3355443
+    Shape = stCircle
+  end
+  object Shape2: TShape
+    Left = 312
+    Height = 113
+    Top = 168
+    Width = 113
+    Brush.Color = 3355443
+    Shape = stCircle
+  end
+  object Shape3: TShape
+    Left = 312
+    Height = 113
+    Top = 296
+    Width = 113
+    Brush.Color = 3355443
+    Shape = stCircle
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 5000
+    OnTimer = Timer1Timer
+    left = 104
+    top = 248
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    left = 160
+    top = 256
+  end
+end

@@ -6,14 +6,13 @@
     <BuildModes Active="Default"/>
     <Units Count="2">
       <Unit0>
-        <Filename Value="project1.lpr"/>
+        <Filename Value="project1.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="project1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="15" Y="13"/>
+        <CursorPos X="77" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -24,10 +23,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="22"/>
-        <CursorPos X="4" Y="42"/>
+        <CursorPos X="30" Y="45"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -36,55 +36,15 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Filename Value="project1.pas"/>
+        <Caret Line="13" Column="15" TopLine="1"/>
       </Position1>
       <Position2>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="37" Column="3" TopLine="13"/>
+        <Filename Value="project1.pas"/>
+        <Caret Line="10" Column="10" TopLine="1"/>
       </Position2>
-      <Position3>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="39" Column="3" TopLine="14"/>
-      </Position3>
-      <Position4>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="40" Column="3" TopLine="14"/>
-      </Position4>
-      <Position5>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="41" Column="3" TopLine="14"/>
-      </Position5>
-      <Position6>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="42" Column="3" TopLine="15"/>
-      </Position6>
-      <Position7>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="41" Column="34" TopLine="19"/>
-      </Position7>
-      <Position8>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="44" Column="32" TopLine="21"/>
-      </Position8>
-      <Position9>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position9>
-      <Position10>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="20" Column="1" TopLine="1"/>
-      </Position10>
-      <Position11>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="7" Column="5" TopLine="1"/>
-      </Position11>
-      <Position12>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="20" Column="1" TopLine="1"/>
-      </Position12>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
